@@ -14,6 +14,7 @@ class CameraPhotos extends Model
     public $fillable = [
 
     	'name',
+        'name',
     	'path',
     	'extension',
     	'full_file_path',

@@ -12,23 +12,23 @@
 
 <style>
 
-.camera1{ height:260px; width: 360px; margin-top:2px; margin-left: -5px; border:5px solid #c0c0c0;}
-.camera2{ height:260px; width: 360px; margin-top:2px; margin-left: -5px; border:5px solid #c0c0c0;}
-.camera3{ height:260px; width: 360px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
-.camera4{ height:260px; width: 360px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.camera1{ height:280px; width: 360px; margin-top:2px; margin-left: -5px; border:5px solid #c0c0c0;}
+.camera2{ height:280px; width: 360px; margin-top:2px; margin-left: -5px; border:5px solid #c0c0c0;}
+.camera3{ height:280px; width: 360px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.camera4{ height:280px; width: 360px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
 
-.atuador1{ height:260px; width: 300px; margin-top:2px; margin-left: -5px; border:5px solid #c0c0c0;}
-.atuador2{ height:260px; width: 300px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.atuador1{ height:280px; width: 300px; margin-top:2px; margin-left: -5px; border:5px solid #c0c0c0;}
+.atuador2{ height:280px; width: 300px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
 
-.ultrassom1{ height:120px; width: 120px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
-.ultrassom2{ height:120px; width: 120px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
-.ultrassom3{ height:120px; width: 120px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
-.ultrassom4{ height:120px; width: 120px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.ultrassom1{ height:80px; width: 120px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.ultrassom2{ height:80px; width: 120px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.ultrassom3{ height:80px; width: 120px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.ultrassom4{ height:80px; width: 120px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
 
-.fumaca1{ height:120px; width: 120px; margin-top:-5px; margin-left: 4px; border:5px solid #c0c0c0;}
-.fumaca2{ height:120px; width: 120px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
-.fumaca3{ height:120px; width: 120px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
-.fumaca4{ height:120px; width: 120px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.fumaca1{ height:80px; width: 120px; margin-top:-5px; margin-left: 80px; border:5px solid #c0c0c0;}
+.fumaca2{ height:80px; width: 120px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.fumaca3{ height:80px; width: 120px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.fumaca4{ height:80px; width: 120px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
 
 .painel5{ height:630px; width: 270px; margin-top: 2px; margin-left: 2px; border:5px solid #c0c0c0;}
 
@@ -59,7 +59,7 @@
   	</div>
 
   	<img src=""
-  	align="left" width="320" height="220">
+  	align="left" width="320" height="240">
   	
 </div>
 
@@ -71,7 +71,7 @@
   	</div>
 
   	<img src=""
-  	align="left" width="320" height="220">
+  	align="left" width="320" height="240">
 
 </div>
 
@@ -91,7 +91,7 @@
   	</div>
 
   	<img src=""
-  	align="left" width="320" height="220">
+  	align="left" width="320" height="240">
 
 </div>
 
@@ -103,7 +103,7 @@
   	</div>
 
   	<img src=""
-  	align="left" width="320" height="220">
+  	align="left" width="320" height="240">
 
 </div>
 
@@ -117,9 +117,6 @@
 
 <div class="col-md-2 ultrassom1" >
   	<span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span> Sensor Ultrassom 1
-  	<div class="alert alert-danger" role="alert">
- 		<strong>Atenção!</strong>
-	</div>
 </div>
 
 <div class="col-md-2 ultrassom2" >

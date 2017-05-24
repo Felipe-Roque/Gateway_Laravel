@@ -152,4 +152,6 @@ class CaptureController extends AppBaseController
 
         return redirect(route('captures.index'));
     }
+
+
 }

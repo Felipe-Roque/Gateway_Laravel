@@ -21,10 +21,9 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 Route::get('/', 'HomeController@index');
 
+Route::post('/send-image','ImageController@receiveImage');
+
 Route::resource('cameras', 'CameraController');
-
 Route::resource('images', 'ImageController');
-
 Route::resource('devices', 'DeviceController');
-
 Route::resource('captures', 'CaptureController');

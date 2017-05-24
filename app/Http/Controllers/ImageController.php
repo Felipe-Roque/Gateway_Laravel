@@ -147,9 +147,14 @@ class ImageController extends AppBaseController
         }
 
         $this->imageRepository->delete($id);
-
         Flash::success('Image deleted successfully.');
 
         return redirect(route('images.index'));
+    }
+
+    public function receiveImage(Request $request){
+        $image = $this->imageRepository->create($request->all());
+        return $image;
+
     }
 }

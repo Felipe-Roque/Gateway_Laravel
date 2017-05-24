@@ -152,4 +152,6 @@ class CameraController extends AppBaseController
 
         return redirect(route('cameras.index'));
     }
+
+
 }

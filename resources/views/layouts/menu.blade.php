@@ -18,7 +18,7 @@
 <label class="switch">
   <input type="checkbox">
   <div class="slider round"></div>
-</label>
+oi</label>
 
 <style>
 .switch {

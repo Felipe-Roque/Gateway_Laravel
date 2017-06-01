@@ -153,5 +153,9 @@ class CaptureController extends AppBaseController
         return redirect(route('captures.index'));
     }
 
+    public function receiveCapture(Request $request){
+        $capture = $this->captureRepository->create($request->all());
+        return $capture;
 
+    }
 }

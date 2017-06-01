@@ -22,6 +22,7 @@ Route::get('/home', 'HomeController@index');
 Route::get('/', 'HomeController@index');
 
 Route::post('/send-image','ImageController@receiveImage');
+Route::post('/send-capture','CaptureController@receiveCapture');
 
 Route::resource('cameras', 'CameraController');
 Route::resource('images', 'ImageController');

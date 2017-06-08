@@ -13,17 +13,24 @@
 <li class="{{ Request::is('captures*') ? 'active' : '' }}">
     <a href="{!! route('captures.index') !!}"><i class="fa fa-edit"></i><span>Capturas</span></a>
 </li>
-<br><br><br><br><br>
+
+<h2><i>Status</i></h2>
+
 <!-- Rounded switch -->
 <label class="switch">
   <input type="checkbox">
   <div class="slider round"></div>
-oi</label>
+</label>
+
+<h3-1><i>OFF</i></h3-1>
+<h3-2><i>ON</i></h3-2>
 
 <style>
 .switch {
-  position: relative;
+  position: absolute;
   display: inline-block;
+  left: 80px;
+  top: 600px;
   width: 60px;
   height: 34px;
 }
@@ -40,6 +47,29 @@ oi</label>
   background-color: #ccc;
   -webkit-transition: .4s;
   transition: .4s;
+}
+
+h2 {
+    position:absolute;
+    top: 540px;
+    left: 73px;
+    color: #FFF;
+}
+
+h3-1 {
+    position:absolute;
+    top: 608px;
+    left: 50px;
+    color: #FFF;
+    font
+}
+
+h3-2 {
+    position:absolute;
+    top: 608px;
+    left: 145px;
+    color: #FFF;
+    font
 }
 
 .slider:before {
